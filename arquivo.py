@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 print "meu prog"
 print "modific 1"
 print "modific 3"
