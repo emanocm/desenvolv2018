@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Minha primeira página</title>
+    <style>
+      h2 {
+         color: #00FF00;
+         text-align: center;
+         }
+    </style>
+    <link href='estilo.css' type='text/css' rel='stylesheet'/>
+  </head>
+
+  <body>
+    <h1 style='color: #FF0000;'>1</h1>
+    <h2>2</h2>
+    <h3>3</h3>
+    <h4>4</h4>
+    <h5>5</h5>
+    <h6>6</h6>
+    <p>parágrafo 1<br/> parágrafo 2 <br/> bla <i>bla</i> <b>bla</b> bla bla bla
+      bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
+      <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+      </ol>
+      <img src='http://www.ufpr.br/portalufpr/wp-content/uploads/2018/03/logo-ufpr.jpg' width='30%'/>
+      <video src='http://techslides.com/demos/sample-videos/small.mp4' width='50%' controls></video>
+      <nav>
+        <a href='http://www.ufpr.br/portalufpr/wp-content/uploads/2018/03/logo-ufpr.jpg'>link 1</a>
+        <a href='index2.html'>segunda página</a>
+      </nav>
+      <br/>
+      <script>
+        console.log('Olá mundo');
+        document.write('Olá mundo 2 </br>');
+        var numero = 10;
+        if (numero=10){
+          document.write('numero igual a 10!</br>');
+        } else {
+          document.write('numero diferente de 10!</br>');
+        }
+        var n1 = 10;
+        var n2 = 20;
+        function calcMedia(numero1,numero2){
+          return (numero1 + numero2) / 2;
+        }
+        document.write (calcMedia(n1,n2)+'</br>');
+        for (var i=0; i<10; i++){
+          document.write ('passou pelo valor: '+i+ '.</br>');
+        }
+
+      </script>
+
+  </body>
+
+</html>
